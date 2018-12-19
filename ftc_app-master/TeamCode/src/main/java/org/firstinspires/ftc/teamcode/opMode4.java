@@ -35,15 +35,23 @@ public class opMode4 extends LinearOpMode {
         waitForStart();
 
         s.bl.setPower(1);
+        telemetry.addLine("bl");
+        telemetry.update();
         s.snooze(1000);
         s.bl.setPower(0);
         s.br.setPower(1);
+        telemetry.addLine("br");
+        telemetry.update();
         s.snooze(1000);
         s.br.setPower(0);
         s.fl.setPower(1);
+        telemetry.addLine("fl");
+        telemetry.update();
         s.snooze(1000);
         s.fl.setPower(0);
         s.fr.setPower(1);
+        telemetry.addLine("fr");
+        telemetry.update();
         s.snooze(1000);
         s.fr.setPower(0);
 
