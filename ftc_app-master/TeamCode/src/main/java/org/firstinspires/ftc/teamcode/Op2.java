@@ -117,14 +117,14 @@ public class Op2 extends LinearOpMode {
             }
 
 
-            if (gamepad1.x) {
+            /*if (gamepad1.x) {
                 s.robotLift.setPower(0.6);
             } else if (gamepad1.b){
                 s.robotLift.setPower(-0.6);
             } else {
                 s.robotLift.setPower(0);
             }
-            telemetry.addData("Robot lift position: ", s.robotLift.getCurrentPosition());
+            telemetry.addData("Robot lift position: ", s.robotLift.getCurrentPosition());*/
             telemetry.update();
         }
     }

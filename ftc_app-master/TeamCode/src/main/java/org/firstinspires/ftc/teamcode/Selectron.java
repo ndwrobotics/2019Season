@@ -24,8 +24,8 @@ public class Selectron {
 
     LinearOpMode op;
 
-    double DROPPER_IN = 0.04;
-    double DROPPER_OUT = 0.8;
+    double DROPPER_IN = 0.7;
+    double DROPPER_OUT = 0.3;
 
     BNO055IMU imu;
 
